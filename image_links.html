@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Image Links</title>
+ <style>
+   .gallery {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 10px;
+   }
+   
+   .gallery img {
+     width: 100%;
+     height: auto;
+   }
+   
+   .menu li {
+     list-style-type: none;
+     margin-bottom: 10px;
+   }
+ </style>
+</head>
+<body>
+ <h1>Welcome to Assignment Image Links</h1>
+ 
+ <h2 id="home">Home</h2>
+ <p>Check out our collection of linked images!</p>
+ <a href="https://www.example.com/technology" target="_blank">
+   <img src="tech_image.jpg" alt="Technology Image" width="300">
+ </a>
+ 
+ <h2 id="gallery">Gallery</h2>
+ <div class="gallery">
+   <a href="https://www.example.com/nature1" target="_blank">
+     <img src="nature_image1.jpg" alt="Nature Image 1">
+   </a>
+   <a href="https://www.example.com/nature2" target="_blank">
+     <img src="nature_image1.jpg" alt="Nature Image 2">
+   </a>
+   <a href="https://www.example.com/nature3" target="_blank">
+     <img src="nature_image1.jpg" alt="Nature Image 3">
+   </a>
+ </div>
+ 
+ <h2 id="menu">Menu</h2>
+ <ul class="menu">
+   <li><a href="https://www.example.com/pizza" target="_blank">Pizza <img src="food_image1.jpg" alt="Pizza" width="50"></a></li>
+   <li><a href="https://www.example.com/burger" target="_blank">Burger <img src="food_image1.jpg" alt="Burger" width="50"></a></li>
+   <li><a href="https://www.example.com/salad" target="_blank">Salad <img src="food_image1.jpg" alt="Salad" width="50"></a></li>
+ </ul>
+</body>
+</html>
